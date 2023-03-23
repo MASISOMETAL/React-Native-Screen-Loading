@@ -22,7 +22,10 @@ En la Screen Loading.js esta toda la configuracion de nuestro loading
 - Import y su uso:
 
 ```javascript
+import { Dimensions } from 'react-native'
 import * as Progress from 'react-native-progress';
+
+const { height, width } = Dimensions.get("window")
 
 const Progress = () =>{
 	<Progress.Bar progress={progress} width={width * 0.65} />
