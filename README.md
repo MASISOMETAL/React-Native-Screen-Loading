@@ -1,9 +1,8 @@
 # Pantalla Loading para React Native
 
 
-###Como instalar?
+### Como instalar?
 
-#### Inline code
 - Hacer clone del GitHub, abrir una terminal y ejecutar el codigo
 
 `$ npm install`
